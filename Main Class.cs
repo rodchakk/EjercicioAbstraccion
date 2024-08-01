@@ -14,7 +14,7 @@ namespace EjercicioAbstraccion
 
         public override void Imprimir()
         {
-            Console.WriteLine("Probando imprimir.... si funiona faaakkkk");
+            Console.WriteLine("Probando imprimir");
         }
 
 
