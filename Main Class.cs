@@ -1,5 +1,9 @@
 ﻿
 
+using System;
+using System.Security.Cryptography.X509Certificates;
+
+
 namespace EjercicioAbstraccion
 {
 
@@ -11,10 +15,10 @@ namespace EjercicioAbstraccion
 
 
     {
-        int a, b, resultado;
+        double a, b, resultado;
 
 
-
+        //definiendo metodo captura
         public override void Captura()
         {
             Console.WriteLine("Ingrese Primer numero: ");
@@ -23,22 +27,21 @@ namespace EjercicioAbstraccion
             Console.WriteLine("Ingrese Segundo numero: ");
             b=int.Parse(Console.ReadLine());
 
+        }
 
 
+
+        //definiendo metodo imprimir
+        public override void Imprimir()
+        {
+            Console.WriteLine($"El resultado es: {resultado}");
 
         }
 
 
 
 
-
-
-
-
-
-
-
-        //area de rectangulo, base x altura
+        //definiendo metodo Area
         public override void Area()
         {
 
@@ -49,36 +52,26 @@ namespace EjercicioAbstraccion
 
             Imprimir();
 
-
-
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        public override void Imprimir()
+        //definiendo metodo Volumen_Cubo
+        public override void Volumen_Cubo()
         {
-            Console.WriteLine($"El resultado es: {resultado}");
+
+            Console.WriteLine("Ingrese el tamaño de uno de los lados del cubo en cm: ");
+            a = int.Parse(Console.ReadLine());
+
+
+            resultado = Math.Pow(a, 3);
+
+
+            Imprimir();
+
+
+            
 
         }
+
 
 
 
@@ -87,7 +80,6 @@ namespace EjercicioAbstraccion
     }
 
 
-    
 
 
 
@@ -95,5 +87,6 @@ namespace EjercicioAbstraccion
 
 
 
-    
+
+
 }

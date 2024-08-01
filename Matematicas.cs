@@ -24,18 +24,18 @@ namespace EjercicioAbstraccion
 
 
 
-        //Captura de datos
+        //declaracion Captura de datos
         public abstract void Captura();
 
 
-        //metodo imprimir
+        //declaracion metodo imprimir
         public abstract void Imprimir();
-        
-        //metodo area
+
+        //declaracion metodo area
         public abstract void Area();
-     
 
-
+        //declaracion metodo Volumen de un cubo
+        public abstract void Volumen_Cubo ();
 
 
 
