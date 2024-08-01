@@ -16,14 +16,6 @@ namespace EjercicioAbstraccion
 
 
 
-
-
-
-
-
-
-
-
         //declaracion Captura de datos
         public abstract void Captura();
 
@@ -43,4 +35,8 @@ namespace EjercicioAbstraccion
         //declaracion metodo Diferencia Cuadrática
         public abstract void Diferencia_Cuadratica();
     }
+
+
+
 }
+

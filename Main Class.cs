@@ -74,8 +74,6 @@ namespace EjercicioAbstraccion
 
 
 
-
-
         //definiendo metodo Raiz Suma
         public override void Raiz_Suma()
         {
@@ -88,9 +86,6 @@ namespace EjercicioAbstraccion
 
 
         }
-
-
-
 
 
 
