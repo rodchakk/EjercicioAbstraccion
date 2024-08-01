@@ -2,7 +2,7 @@
 
 
 
-//area de rectangulo, base x altura
+
 
 
 
@@ -24,9 +24,15 @@ namespace EjercicioAbstraccion
 
 
 
+        //Captura de datos
+        public abstract void Captura();
+
 
         //metodo imprimir
         public abstract void Imprimir();
+        
+        //metodo area
+        public abstract void Area();
      
 
 

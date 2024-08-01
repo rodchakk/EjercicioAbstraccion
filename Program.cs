@@ -14,10 +14,10 @@ main_Class.Imprimir();
 
 
 
+Main_Class area = new Main_Class();
 
 
-
-
+main_Class.Area();
 
 
 
