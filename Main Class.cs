@@ -59,7 +59,7 @@ namespace EjercicioAbstraccion
         {
 
             Console.WriteLine("Ingrese el tamaño de uno de los lados del cubo en cm: ");
-            a = int.Parse(Console.ReadLine());
+            a = double.Parse(Console.ReadLine());
 
 
             resultado = Math.Pow(a, 3);
@@ -74,6 +74,37 @@ namespace EjercicioAbstraccion
 
 
 
+
+
+        //definiendo metodo Raiz Suma
+        public override void Raiz_Suma()
+        {
+            Captura();
+
+            resultado = Math.Sqrt(a+b);
+
+            Imprimir();
+
+
+
+        }
+
+
+
+
+
+
+        //definiendo metodo Diferencia_Cuadratica
+        public override void Diferencia_Cuadratica()
+        {
+
+            Captura();
+
+            resultado = Math.Pow(a, 2) - Math.Pow(b,2);
+
+            Imprimir() ;
+
+        }
 
 
 

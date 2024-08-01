@@ -37,7 +37,10 @@ namespace EjercicioAbstraccion
         //declaracion metodo Volumen de un cubo
         public abstract void Volumen_Cubo ();
 
+        //declaracion metodo Raiz cuadrada de suma
+        public abstract void Raiz_Suma();
 
-
+        //declaracion metodo Diferencia Cuadrática
+        public abstract void Diferencia_Cuadratica();
     }
 }
